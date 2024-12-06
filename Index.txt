@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empowering Youth through Interactive Training Courses">
+  <title>SMT Training Institute</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Inline CSS for demonstration purposes */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff6a00, #ffcc00);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header .hero h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header .hero p {
+      margin: 10px 0 20px;
+      font-size: 1.2rem;
+    }
+
+    header .cta {
+      display: inline-block;
+      padding: 10px 20px;
+      background: white;
+      color: #ff6a00;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ff6a00;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .courses .card {
+      display: inline-block;
+      width: 300px;
+      margin: 10px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .courses .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .courses .card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .footer a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1>Welcome to SMT Training Institute</h1>
+    <p>Empowering Youth through Innovation and Education</p>
+    <a href="#courses" class="cta">Explore Our Courses</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>SMT Training Institute is dedicated to equipping young individuals with the skills and knowledge needed for a brighter future.</p>
+</section>
+
+<section id="courses" class="courses">
+  <h2>Our Courses</h2>
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Course Image">
+    <h3>Leadership Skills</h3>
+    <p>Learn the art of leadership and how to inspire others to succeed.</p>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Course Image">
+    <h3>Public Speaking</h3>
+    <p>Overcome stage fright and become a confident speaker.</p>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>What Our Students Say</h2>
+  <p>"Joining SMT Training was the best decision I made. It’s fun and engaging!" - Sarah A.</p>
+  <p>"I’ve gained so many valuable skills that I can apply in my daily life." - Ahmed M.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:info@smtu.ae">info@smtu.ae</a></p>
+  <p>Phone: <a href="tel:+971500000000">+971 50 000 0000</a></p>
+  <p>Visit: <a href="https://www.smtu.ae" target="_blank">www.smtu.ae</a></p>
+</section>
+
+<footer class="footer">
+  <p>© 2024 SMT Training Institute. All Rights Reserved. Designed with ❤️ by <a href="https://www.hakgroup.ae">HAK Group</a>.</p>
+</footer>
+
+</body>
+</html>
